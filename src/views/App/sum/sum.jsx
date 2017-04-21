@@ -1,6 +1,5 @@
-export let obj = {
-    sum: (a, b) => a + b
-};
-// export let sum = (a, b) => a + b;
+let helpers = module.exports;
 
-export let localSum = (a, b) => obj.sum(a, b);
+export let sum = (a, b) => a + b;
+
+export let localSum = (a, b) => helpers.sum(a, b);
